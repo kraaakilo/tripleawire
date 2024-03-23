@@ -5,12 +5,15 @@ TripleaWire is a network traffic capture and analysis tool. It is designed to ca
 ## Features
 - Capture network traffic in real-time (Only TCP and ICMP packets are supported for now.)
 - Show packets details in a human readable format.
-- Trigger alerts based on packet data.
+- **Trigger alerts based on packet data.**
+    
+    The core can be configured to trigger alerts based on packet data. For example, the core can be configured to trigger an alert when a packet with a specific IP address is detected. This feature can be used to detect for example if a computer in the network trying to access some restricted website.
+    
 - Websocket server to stream packets to the UI.
 
 ## Here is an sample example of the UI:
 
-![TripleaWire UI](https://github.com/kraaakilo/tripleawire/)
+![TripleaWire UI](https://raw.githubusercontent.com/kraaakilo/tripleawire/master/tripleawire-demo.gif)
 
 ### Running the Core Project:
 1. **Install Go**: Download and install Go from [here](https://golang.org/dl/).
