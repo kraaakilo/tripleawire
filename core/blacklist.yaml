@@ -1,0 +1,12 @@
+blacklist:
+  - name: "Fraudulents sites"
+    description: "The IP addresses of fraudulent sites"
+    addresses:
+      - "192.168.1.100"
+      - "192.168.1.101"
+
+  - name: "Adult content"
+    description: "The IP addresses of adult content sites"
+    addresses:
+      - "66.254.114.41"
+
